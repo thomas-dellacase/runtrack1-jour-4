@@ -1,0 +1,158 @@
+h1,h2 {
+    font-family: "roboto";
+    
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+body {
+   font-family: "Space Mono";
+    margin: 0;
+}
+.blue {
+    background-color: #275fa0;
+    color: white;
+}
+.white {
+    background-color: white;
+    color: black;
+}
+header {
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px;
+    border-radius: 10px;
+    position: fixed;
+    background: white;
+    opacity: 0.85;
+    display: grid;
+    width: 20%;
+    height: 90%;
+    margin: 3%;
+}
+ header nav {
+    display: inline-grid;
+    align-self: center;
+    
+}
+header img {
+    justify-self: center;
+    align-self: center;
+    width: 60%;
+}
+header nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 3%;
+    word-wrap: break-word;
+}
+header nav a:hover {
+    color: #ffca4b;
+    
+}
+section {
+    padding-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+footer {
+    background-color: #88c1d0;
+    padding-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+footer nav a {
+    text-decoration: none;
+    font-size: small;
+    padding-right: 20px;
+}
+footer nav a:after {
+    color: #275fa0;
+}
+footer p {
+    font-size: small; 
+}
+aside {
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px;
+    border-radius: 10px;
+    margin: 3%;
+    padding-left: 3%;
+}
+
+
+
+/** Grid **/
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.enfant1 {
+    grid-column: 1/2;
+}
+.enfant2 {
+   grid-column: 2/3;
+}
+.enfant3 {
+   grid-column: 3/4;
+}
+
+/** Flex **/
+.flex {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/** Formulaire Robin A **/
+input, select {
+    padding: 10px;
+    margin:  10px;
+    border-radius: 0;
+}
+
+/** Button Robin A **/
+.btnRA{
+    text-align: center; 
+    padding: 20px; 
+    display: inline;
+}
+
+/**Code css robin**/
+.robin
+{
+    display: flex;
+
+}
+
+.robin aside
+{
+    width: 50%;
+    border: none;
+    background-color: #ffca4b;
+}
+
+/**button css pierre**/
+.button {
+    background-color: #ffca4b;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 14px 40px;
+    transition: .2s;
+    color: white;
+    font-size: 15px;
+    
+    
+    
+}
+.button:hover {
+    transform: scale(1.5);
+}
